@@ -32,7 +32,7 @@ try:
 
     mensajesiesmultiplo1= (("El número ") + (numerouno)+(" ")+("(el primero)") + (", ")+ ("es múltiplo de") + (" ") + (numerodos)+(" ")+ ("(el segundo)")+ ("."))
     mensajesiesmultiplo2= (("El número ")  + (numerodos)+(" ")+("(el segundo)")+ (", ")+("es múltiplo de") + (" ") + (numerouno)+ (" ")+ ("(el primero)") + ("."))
-    mensajesiningunoesmultiplo= ("NADOTA")
+    mensajesiningunoesmultiplo= ("Ninguno de los números es múltiplo del otro")
 
 
 
