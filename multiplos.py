@@ -30,8 +30,8 @@ try:
     numerouno= str(numero1)
     numerodos=str(numero2)
 
-    mensajesiesmultiplo1= (("El número ") + (numerouno)+("")("es múltiplo de") + (" ") + (numerodos))
-    mensajesiesmultiplo2= (("El número ")  + (numerodos)+(" ")+("es múltiplo de") + (" ") + (numerouno))
+    mensajesiesmultiplo1= (("El número ") + (numerouno)+(" es múltiplo de ")  + (numerodos))
+    mensajesiesmultiplo2= (("El número ")  + (numerodos)+(" es múltiplo de ")  + (numerouno))
     mensajesiningunoesmultiplo= ("Ninguno de los números es múltiplo del otro")
 
 
