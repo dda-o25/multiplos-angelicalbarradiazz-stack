@@ -53,7 +53,7 @@ try:
 
 
     else:
-        salida= mensajesiningunoesmultiplo
+        salida= "Ninguno de los números es múltiplo del otro"
 
 
     # Salidas
