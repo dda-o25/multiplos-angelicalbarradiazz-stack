@@ -53,10 +53,12 @@ try:
     elif (numero2/numero1== numero2//numero1):
         salida= mensajesiesmultiplo2
       
+    elif numero2==0:
+    salida= mensajesiesmultiplo2
+    
 
 
 
-      
     else:
         salida= "Ninguno de los números es múltiplo del otro"
 
