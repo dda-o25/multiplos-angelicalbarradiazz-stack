@@ -43,15 +43,16 @@ try:
     #if not isinstance(numerouno, int) or not isinstance(numerodos, int):
     #  salida=("Hazme caso y pon un entero porfa")
     
-    if (numero1/numero2 == numero1//numero2):
+    if numero2==0 or numero1==0:
+    salida= "Ninguno de los números es múltiplo del otro"
+    
+    elif (numero1/numero2 == numero1//numero2):
 
         salida= mensajesiesmultiplo1
 
     elif (numero2/numero1== numero2//numero1):
         salida= mensajesiesmultiplo2
-
-
-
+      
     else:
         salida= "Ninguno de los números es múltiplo del otro"
 
