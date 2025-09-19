@@ -45,16 +45,18 @@ try:
     
    # if numero2==0 or numero1==0:
     #    salida= "Ninguno de los números es múltiplo del otro"
-    
-    if (numero1/numero2 == numero1//numero2):
+
+   if numero2==0:
+        salida= mensajesiesmultiplo2
+
+    elif (numero1/numero2 == numero1//numero2):
 
         salida= mensajesiesmultiplo1
 
     elif (numero2/numero1== numero2//numero1):
         salida= mensajesiesmultiplo2
       
-    elif numero2==0:
-        salida= mensajesiesmultiplo2
+    
     
 
 
