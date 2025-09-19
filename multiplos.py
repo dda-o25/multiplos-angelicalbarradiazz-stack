@@ -60,6 +60,6 @@ try:
     print(salida)
 
 except ValueError:
-    salida = "Hazme caso y pon un entero porfa"
+    salida = "Ninguno de los números es múltiplo del otro"
 
 
