@@ -54,7 +54,7 @@ try:
         salida= mensajesiesmultiplo2
       
     elif numero2==0:
-    salida= mensajesiesmultiplo2
+        salida= mensajesiesmultiplo2
     
 
 
