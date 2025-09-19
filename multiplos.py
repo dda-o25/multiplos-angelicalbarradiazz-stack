@@ -1,15 +1,65 @@
 """
 Inserta el encabezado aquí y escribe tu código abajo
+
+    Determina si uno de los dos números enteros es múltiplo del otro.
+
+    Args:
+        a (int): Primer número entero.
+        b (int): Segundo número entero.
+
+    Returns:
+        str: Mensaje indicando si a es múltiplo de b, b es múltiplo de a,
+             o si ninguno lo es.
 """
 
-# Declaraciones
-CONSTANTE = valor
+
+
+
+
+
+
+
 
 # Entradas
-entrada = input()
+#entrada = input()
+try:
+    numero1=int(input("Escribe el primer número y que sea entero por favor "))
+    numero2=int(input("Escribe el segundo número y que sea entero también por favor "))
 
-# Proceso
+    # Declaraciones
+    numerouno= str(numero1)
+    numerodos=str(numero2)
+
+    mensajesiesmultiplo1= (("El número ") + (numerouno)+(" ")+("(el primero)") + (", ")+ ("es múltiplo de") + (" ") + (numerodos)+(" ")+ ("(el segundo)")+ ("."))
+    mensajesiesmultiplo2= (("El número ")  + (numerodos)+(" ")+("(el segundo)")+ (", ")+("es múltiplo de") + (" ") + (numerouno)+ (" ")+ ("(el primero)") + ("."))
+    mensajesiningunoesmultiplo= ("NADOTA")
 
 
-# Salidas
-print(salida)
+
+
+
+    # Proceso
+
+    #if not isinstance(numerouno, int) or not isinstance(numerodos, int):
+    #  salida=("Hazme caso y pon un entero porfa")
+    
+    if (numero1/numero2 == numero1//numero2):
+
+        salida= mensajesiesmultiplo1
+
+    elif (numero2/numero1== numero2//numero1):
+        salida= mensajesiesmultiplo2
+
+
+
+    else:
+        salida= mensajesiningunoesmultiplo
+
+
+    # Salidas
+    print(salida)
+
+except ValueError:
+    salida = "Hazme caso y pon un entero porfa"
+
+
